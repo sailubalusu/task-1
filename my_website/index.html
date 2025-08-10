@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <style>
+        /* Navbar styles */
+        .navbar {
+            background-color: #09121b; /* Change color here */
+            padding: 10px;
+        }
+
+        .navbar ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        .navbar ul li {
+            margin-right: 20px;
+            position: relative;
+        }
+
+        .navbar ul li a {
+            color: white; /* Text color */
+            text-decoration: none;
+            padding: 8px 12px;
+            display: block;
+        }
+
+        .navbar ul li a:hover {
+            background-color: #09121b; /* Hover color */
+            border-radius: 5px;
+        }
+
+        /* Dropdown styles */
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #09121b;
+            min-width: 160px;
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            padding: 8px 12px;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        /* Page content */
+        .container {
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li class="dropdown">
+                <a href="#">Login</a>
+                <div class="dropdown-content">
+                    <a href="#">Student Login</a>
+                    <a href="#">Admin Login</a>
+                </div>
+            </li>
+            <li><a href="registration.html">Registration Process</a></li>
+            <li><a href="test.html">Tests</a></li>
+            <li><a href="results.html">Results</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h1>OUR VISION</h1>
+        <P>Create high-quality engineering professionals through research, innovation and teamwork for data science services with outstanding faculty, facilities and education.</P>            
+        <h1>OUR MISSION</h1>
+        <p>M1: Data science program dedicates itself to provide students with a set of skills, knowledge and attitude that will permit its graduates to succeed and thrive as successful information technologists.</p>            
+        <p>M2: Enhance overall personality development which includes innovative thinking, team work, entrepreneur skills, communication skills, employability skills and ethical conduct.</P>
+        <P>M3: Ensuring effective teaching–learning process to provide in-depth knowledge of interdisciplinary areas.</P>
+        <P>M4: Providing industry interactions through consultancy and sponsored research for the societal needs.</P>    
+    </div>
+
+</body>
+</html>

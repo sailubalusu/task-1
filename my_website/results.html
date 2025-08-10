@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Results</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li class="dropdown">
+                <a href="#">Login</a>
+                <div class="dropdown-content">
+                    <a href="#">Student Login</a>
+                    <a href="#">Admin Login</a>
+                </div>
+            </li>
+            <li><a href="registration.html">Registration Process</a></li>
+            <li><a href="test.html">Tests</a></li>
+            <li><a href="results.html">Results</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h2>Results</h2>
+        <form>
+            <div class="form-group">
+                <label for="rollNo">Roll No:</label>
+                <input type="text" id="rollNo" name="rollNo">
+            </div>
+            
+            <div class="form-actions">
+                <button type="submit" class="btn btn-submit">Submit</button>
+                <button type="reset" class="btn btn-reset">Reset</button>
+            </div>
+        </form>
+
+        <h3>Results Table</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>S.No</th>
+                    <th>Course Code</th>
+                    <th>Course Name</th>
+                    <th>Grade Point</th>
+                    <th>Credits</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>CS101</td>
+                    <td>Introduction to Programming</td>
+                    <td>9</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>MA202</td>
+                    <td>Advanced Calculus</td>
+                    <td>8</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>WT402</td>
+                    <td>Web Technologies</td>
+                    <td>9</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>CN508</td>
+                    <td>computer Network</td>
+                    <td>7</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>IP604</td>
+                    <td>Introduction to Python</td>
+                    <td>8</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>IJ404</td>
+                    <td>introduction to Java</td>
+                    <td>7</td>
+                    <td>3</td>
+                </tr>
+                </tbody>
+        </table>
+
+        <div style="margin-top: 20px;">
+            <p><strong>SGPA:</strong> 8.4</p>
+            <p><strong>CGPA:</strong> 8.6</p>
+        </div>
+    </div>
+
+</body>
+</html>
+ 
